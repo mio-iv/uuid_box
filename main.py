@@ -1,7 +1,5 @@
 from pathlib import Path
 
-BASE_DIR = Path(__file__)
+base_dir = Path(__file__).resolve()
 
-print(BASE_DIR)
-
-test = "sdrttttttttttttttttttttttttttttttttttttttttttsdrttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttsdrtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt"
+print(base_dir)
